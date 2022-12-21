@@ -52,11 +52,11 @@ When the file is downloaded uncompress the files (right-click > 7-Zip > Extract 
 
 3. Start the XAMPP Control Panel by clicking on the xampp-control.exe file.
 
-OpenXAMPP.PNG
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/OpenXAMPP.PNG)
 
  4. Start the Apache Web server and MySQL database by clicking on the associated start buttons.
  
-control panel started
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/control-panel-started.PNG)
 
 5. Open a web browser and navigate to http://localhost Links to an external site.and you should be redirected to the PHP server dashboard.
 
