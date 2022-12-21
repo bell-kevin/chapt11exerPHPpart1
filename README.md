@@ -35,7 +35,8 @@ Insert your USB flash drive into the workstation, making sure that the drive is 
 
  
 ## Installing XAMPP on a USB Flash drive:
-Download xampp  
+1. Download xampp  
+
 In a new browser window, go to https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/.
 In the middle of the screen, you should see a list of releases for xampp. Pick the latest release.  As of this posting 7.2.12 was the latest release.
 
@@ -43,16 +44,24 @@ There are a number of types of downloads you can pick.  Portable vs. Non-Portabl
 
 When the file is downloaded uncompress the files (right-click > 7-Zip > Extract Here).  This should give you a xampp folder.  Move the xampp folder to your flash drive.  The folder is about 500 MB so this will take a few minutes.
 
-Setting up the environment
-Open the xampp folder.
-Click on the setup_xampp.bat file.  The batch file will do a number of updates to the files in the folder; for example, getting the OS of the computer and updating all the configuration files for the drive letter of the flash drive.    
+2. Setting up the environment
 
-Start the XAMPP Control Panel by clicking on the xampp-control.exe file.
+   A. Open the xampp folder.
+   
+   B. Click on the setup_xampp.bat file.  The batch file will do a number of updates to the files in the folder; for example, getting the OS of the computer and updating all the configuration files for the drive letter of the flash drive.    
+
+3. Start the XAMPP Control Panel by clicking on the xampp-control.exe file.
+
 OpenXAMPP.PNG
- Start the Apache Web server and MySQL database by clicking on the associated start buttons.
+
+ 4. Start the Apache Web server and MySQL database by clicking on the associated start buttons.
+ 
 control panel started
-Open a web browser and navigate to http://localhost Links to an external site.and you should be redirected to the PHP server dashboard.
-To close XAMPP, you must stop the Apache Server and the MySQL Server by clicking the Stop buttons.  To close the control panel you need to click the "Quit" button.
+
+5. Open a web browser and navigate to http://localhost Links to an external site.and you should be redirected to the PHP server dashboard.
+
+6. To close XAMPP, you must stop the Apache Server and the MySQL Server by clicking the Stop buttons.  To close the control panel you need to click the "Quit" button.
+
 Important: when you installed XAMPP on your flash drive, all of the configuration files were mapped to the drive assigned to the flash drive at the time of installation. If you plug the flash drive in and the computer assigns the drive a different letter, you can update the configuration files by running the setup_xampp.bat file in the xampp folder on your flash drive.
 
 I have seen flash drive become corrupted while using xampp.  It is best practice to safely eject your flash drive before removing it.  To safely remove the flash drive you must stop Apache, MariaDB, and the Control Panel.  If you close the control panel from the X in the upper right-hand corner of the control panel it will run in the background.  You will need to open the running process in the hidden icon on the taskbar right-click the control panel icon and click quit.
