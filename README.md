@@ -34,7 +34,7 @@ You will need to install the XAMPP software and your database on a USB Flash Dri
 Insert your USB flash drive into the workstation, making sure that the drive is recognized and available for use.
 
  
-Installing XAMPP on a USB Flash drive:
+## Installing XAMPP on a USB Flash drive:
 Download xampp  
 In a new browser window, go to https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/.
 In the middle of the screen, you should see a list of releases for xampp. Pick the latest release.  As of this posting 7.2.12 was the latest release.
