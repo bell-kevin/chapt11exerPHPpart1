@@ -10,7 +10,7 @@ Understand that setting up email can take a bunch of "well, just fiddling"; sinc
 
 Submission: Please take and submit .png screenshots showing your working code running in a browser and your source code for 11.1, 11.2, 11.4, 11.5, and 11.6; place all files in a .zip file.
 
-# Info. on Install XAMPP:
+## Info. on How to Install XAMPP:
 
 If you are working on a classroom computer it is best to install XAMPP on your own flash drive.
 
@@ -34,7 +34,7 @@ You will need to install the XAMPP software and your database on a USB Flash Dri
 Insert your USB flash drive into the workstation, making sure that the drive is recognized and available for use.
 
  
-## Installing XAMPP on a USB Flash drive:
+### Installing XAMPP on a USB Flash drive:
 1. Download xampp  
 
 In a new browser window, go to https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/.
