@@ -45,7 +45,7 @@ Insert your USB flash drive into the workstation, making sure that the drive is 
 ### Installing XAMPP on a USB Flash drive:
 1. Download xampp  
 
-In a new browser window, go to https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/.
+If you are using Microsoft Windows operating system, in a new browser window, go to https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/.
 In the middle of the screen, you should see a list of releases for xampp. Pick the latest release.  As of this posting 7.2.12 was the latest release.
 
 There are a number of types of downloads you can pick.  Portable vs. Non-Portable.  Non-Portable has a few applications you will not need in this course.  We will use the portable version.  You do not have administrative rights to run the .exe files on the classroom computers so this leaves you with two options, a .7z file and a .zip file.  Either one is fine, if you do not know what 7-Zip is click the .zip file.  The file should download when you click on it.
