@@ -30,6 +30,8 @@ Third, start the Apache server and run the email.php script. It presents a form 
 
 Once that is working, you need to make some changes to the email that is generated. The book's script displays the name and comments from the contact form. The email sent using the sendmail server will be from your email account and to your email account, so there is no way to know the user's email address. In the email.php script, add the email address between those fields. Write a comment that is more than 70 characters long, to test the wordwrap function. Take a screenshot of the email you receive. It should resemble this:
 
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/Capture1.PNG)
+
 Submission: Please take and submit .png screenshots showing your working code running in a browser and your source code for 11.1, 11.2, 11.4, 11.5, and 11.6; place all files in a .zip file.
 
 ## Info. on How to Install XAMPP:
