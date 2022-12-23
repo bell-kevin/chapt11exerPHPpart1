@@ -18,6 +18,10 @@ Second, read this (https://github.com/bell-kevin/chapt11exerPHP/blob/main/EmailN
 
 Third, start the Apache server and run the email.php script. It presents a form to fill out, and when you click the Submit button, it should respond as outlined in the book, and send an email to your email account.
 
+You can also send your email to multiple email accounts at the same time:
+
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/Capture4.PNG)
+
 More info.: [W3schools](https://www.w3schools.com/php/func_mail_mail.asp)
 
 ![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/PXL_20221222_210617215.jpg)
