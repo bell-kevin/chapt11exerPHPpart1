@@ -4,17 +4,29 @@ Textbook: PHP and MySQL for Dynamic Web Sites: Visual QuickPro Guide (5th Editio
 
 This chapter has multiple parts, and several need additional information. Read through these instructions, and read Chapter 11 in the textbook as directed.
 
-Task 1: Sending Email
+## Task 1: Sending Email
 
 Sending email can be difficult because there are so many different email servers and systems. Current XAMPP versions include the SMTP server "sendmail". The computers in the classroom use Chrome. The instructions included here are for gmail accounts and Chrome. If you do not already have a gmail account, create one for this assignment.
 
 First, read the section about sending email in the book, and create the email.php file as detailed in the book. NOTE: in the form code for the textarea tag, make sure there are no extra spaces between the textarea tag and its closing tag. That is, don't make the code "pretty" by spacing things out or pressing Enter to move some of the PHP code down to a new line. The spaces will be part of the textarea, when it should be completely empty. When you click into the textarea in the web browser, the cursor should go to the upper left corner of the box. If it goes anywhere else inside that box, you have spaces between the opening and closing textarea tags, and need to remove them.
 
-Second, read this document about setting up the sendmail option Download this document about setting up the sendmail optionand make the changes specified. NOTE: It is very important that you make a copy of the php.ini and sendmail.ini files before you begin editing them. Make sure you have a copy of the original files, because trying to recreate them if there are mistakes in editing will be complex. Always keep a copy of the original files as a backup. UPDATE: https://support.google.com/accounts/thread/173280862?hl=en Links to an external site.Google got rid of the less secure apps feature around the end of May this year. Log into your Gmail account and enable 2-step verification. This will allow you to create an app password for Mail. Use this app password in place of your account password in the sendmail.ini. UPDATE of the UPDATE: However, the section of the updated paragraph "Use this app password in place of your account password in the sendmail.ini and php.ini". You only need to update the password in the sendmail.ini file.
+Second, read this (https://github.com/bell-kevin/chapt11exerPHP/blob/main/EmailNotes.pdf) document about setting up the sendmail option Download this document about setting up the sendmail optionand make the changes specified. NOTE: It is very important that you make a copy of the php.ini and sendmail.ini files before you begin editing them. Make sure you have a copy of the original files, because trying to recreate them if there are mistakes in editing will be complex. Always keep a copy of the original files as a backup. UPDATE: https://support.google.com/accounts/thread/173280862?hl=en Links to an external site.Google got rid of the less secure apps feature around the end of May this year. Log into your Gmail account and enable 2-step verification. This will allow you to create an app password for Mail. Use this app password in place of your account password in the sendmail.ini. UPDATE of the UPDATE: However, the section of the updated paragraph "Use this app password in place of your account password in the sendmail.ini and php.ini". You only need to update the password in the sendmail.ini file. (see the sendmail.ini file in this repo. for example help)
 
 The php.ini doesn't need updating and may cause some confusion in the future when a student tries to find the place to put the password, but it doesn't exist. Thanks!
 
 Third, start the Apache server and run the email.php script. It presents a form to fill out, and when you click the Submit button, it should respond as outlined in the book, and send an email to your email account.
+
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/PXL_20221222_210617215.jpg)
+
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/bb8869e1-ade6-4288-a990-92e97139ff01.png)
+
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/folders.png)
+
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/forbid.png)
+
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/shell.png)
+
+![p](https://github.com/bell-kevin/chapt11exerPHP/blob/main/pictures/internetDiagram.jpg)
 
 Once that is working, you need to make some changes to the email that is generated. The book's script displays the name and comments from the contact form. The email sent using the sendmail server will be from your email account and to your email account, so there is no way to know the user's email address. In the email.php script, add the email address between those fields. Write a comment that is more than 70 characters long, to test the wordwrap function. Take a screenshot of the email you receive. It should resemble this:
 
